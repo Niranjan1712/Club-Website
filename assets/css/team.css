@@ -1,0 +1,41 @@
+.team-heading{
+    padding-top: 60px;
+}
+.mentor-image{
+    width: 80px;
+    height: 80px;
+}
+.leaders-social i{
+    font-size: 18px;
+    padding: 4px;
+}
+.mentor-box{
+    padding-bottom: 60px;
+    /*  width: max-content;  */
+}
+
+.mentor-box1{
+    padding-bottom: 60px;
+    margin-top: 30px;
+    width: 42%;
+}
+
+.team-leaders{
+    background-color: #f4f6f7;
+}
+@media only screen and (max-width: 991px) {  
+    .card-deck{
+        display: block;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .team-heading{
+        padding-top: 100px;
+    }
+    .mentor-box1{
+        padding-bottom: 60px;
+        margin-top: 20px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,142 @@
+/* footer{
+    overflow: hidden;
+} */
+.about-header-cmrit{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background: linear-gradient(0deg, rgba(21, 115, 245, 0.5), rgba(21, 115, 245, 0.5)), url("../images/cmrit-image1.jpg"), #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.about-header-hyderabad{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background: linear-gradient(0deg, rgba(21, 115, 245, 0.5), rgba(21, 115, 245, 0.5)), url("../images/ieee-hyderabad.png"), #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.about-heading{
+    padding: 7px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    border: 2px solid;  
+    /* background: linear-gradient(0deg, rgba(21, 115, 245, 0.5), rgba(21, 115, 245, 0.5)); */
+    background: transparent;
+    /* text-align: center;   */
+}
+.vision{
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.vision-content{
+    /* padding-top: px; */
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 25px;
+    /* border: 2px solid red; */
+}
+.ieee-content{
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 25px;
+    /* border: 2px solid red; */
+}
+.vision{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.vision-box{
+    width: 60%;
+   margin: auto;
+}
+.ieee-box{
+    width: 90%;
+   margin: auto;
+}
+.mission-list{    
+  margin: auto;
+  padding-left: 20%;  
+}
+.mission-container{
+    /* border: 2px solid green; */
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 25px;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    
+}
+.shadow{
+    box-shadow: 0px 0px 12px rgb(61, 9, 9,0.25);
+}
+.follow{
+    padding-top: 25px;
+}
+.follow p{
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 25px;
+    font-style: normal;
+    /* font-weight: bold; */
+}
+.follow i{
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .about-header-cmrit, .about-header-hyderabad{
+        height: 150px;
+    }
+    .about-heading{
+        padding: 5px;
+        font-size: 16px;
+        border: 2px solid;  
+    }
+    .vision{
+        font-size: 16px;
+    }
+    .vision-content{
+        font-size: 14px;
+       
+        /* border: 2px solid red; */
+    }
+    .vision-box{
+        width: 100%;
+       margin: auto;
+    }
+    .mission-list{    
+        margin: auto;
+        padding-left: 9%;  
+      }
+}

@@ -1,0 +1,53 @@
+.contact-bg{
+    padding-top: 70px;
+    margin:auto;
+    background-image: url("../images/contact-wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100% ; */
+}
+.contact-box{
+    margin: auto;
+    /* border: 2px solid black; */
+}
+.contact-list{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.contact-list li{
+    list-style-type: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    border-left: 8px solid #00cba9;
+    background-color: white;
+    padding: 15px;
+    /* padding-bottom: 10px; */
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.contact-list li i{
+    font-size: 20px;
+    padding-right: 10px;
+    color: black;
+    
+}
+
+@media only screen and (max-width: 991px) {   
+    .contact-list{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        
+    }
+    .contact-list li{
+        font-size: 14px;
+    }
+}
