@@ -1,2 +1,2 @@
 # Club-Website
-This is a website for a college club for managing events, upcoming events and club details
+This is the website for college club which is to display the club details and about their latest events
